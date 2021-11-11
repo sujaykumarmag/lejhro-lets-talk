@@ -1,0 +1,117 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.lejhro{
+    position: relative;
+    background-color: black;
+
+    
+    
+}
+
+.lejhro h1{
+    position: relative;
+    animation-name: lejhro;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    
+}
+
+@keyframes lejhro {
+    from{
+        opacity: 0%;
+        font-size: 10px;
+        
+    }
+    to{
+        opacity: 100%;
+        font-size: 198px;
+        
+    }
+    
+}
+
+.namelejhro1{
+    display: flex;
+    padding-top: 300px;
+    padding-left: 330px;
+    align-items: center;
+    font-size: 100px;
+
+}
+
+.namelejhro2{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+    animation-name: nameway;
+    animation-duration: 2s;
+    font-size: 20px;
+}
+
+
+
+@keyframes nameway {
+    from{
+        padding-left: 500px;
+        padding-top: 300px;
+        font-size: 50px;
+    }
+    to{
+        padding-top: 20px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+}
+
+
+.navlink2{
+    color:wheat;
+    background-color:black;
+    border-radius: 20px;
+    position: relative;
+    top:-40px;
+    animation-name: navlink1;
+    animation-duration: 2s;
+    left:20%;
+}
+
+.navlink1{
+    color:wheat;
+    background-color:black;
+    border-radius: 20px;
+    position: relative;
+    left:100%;
+    z-index: 20;
+    
+}
+
+@keyframes navlink1 {
+    from{
+        left:100%;
+    }
+    to{
+        left:20%;
+
+    }
+    
+}
+li{
+    display: inline-block;
+    padding: 0px 30px;
+    cursor: pointer;
+    font-size: 25px;
+}
+li:hover{
+    background-color: rgb(102, 100, 100);
+    border-radius: 20px;
+    color: coral;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}

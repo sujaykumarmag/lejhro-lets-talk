@@ -1,0 +1,108 @@
+footer {
+    position: absolute;
+    bottom: 0;
+}
+.image-button{
+    background-color: #0061ff;    
+    border-radius: 50px;
+    padding: 25px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    border-width: 0.8px;
+    border-color: rgb(248, 238, 238);
+    color: white;
+    position: absolute;
+    margin-left: 1220px;
+    bottom: 0;
+    margin-bottom:30px;
+}
+
+.image-button:hover{
+    background-color:#0155dd;
+    border-style: 100px whitesmoke;
+}
+
+.letskeep{
+    display: grid;
+    width:320px;
+    height:630px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-style: 1px solid black;
+    grid-template-rows: 150px 240px 240px;
+    margin-left: 1030px;
+    z-index: 100000;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    transition: 2s;
+    animation-name: letskeeperapi;
+    animation-duration: 0.8s;
+}
+
+.letskeepheader{
+    background-color: rgb(34, 33, 33);
+    height:200px;
+    
+}
+
+
+@keyframes letskeeperapi {
+    from{
+        opacity: 0;
+        transform: translateY(100%)
+    }
+    to{
+        transform: translateY(0%);
+        opacity: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.minimize{
+    background-color: transparent;
+    font-size: 50px;
+    color:white;
+    border-style: none;
+    margin-left: 270px;
+    cursor: pointer;
+    margin-top:-20px;
+    margin-bottom:20px;
+}
+
+.supportques{
+    background-color: white;
+    cursor: pointer;
+    border-style: none;
+    border-top: solid 0.5px;
+}
+.salesques{
+    background-color: white;
+    cursor: pointer;
+    border-style: none;
+    border-bottom: solid 0.5px;
+}
+
+.salesques:hover{
+    background-color: rgb(233, 233, 233);
+}
+.supportques:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+
+.directory{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: start;
+    padding-left: 20px;
+    margin-top:20px;
+    color: white;
+    cursor: pointer;
+}
+
+.directory:hover{
+    color:rgb(157, 155, 155)
+}
