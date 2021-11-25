@@ -11,9 +11,7 @@ function LetsTalk() {
     const [sales, setsales] = useState(false);
     const [support, setsupport] = useState(false);
     const [homebtn, sethomesbtn] = useState(true);
-
     const history = useHistory();
-
     function handleClickEmailSales() {
         history.push("/email-sales")
     }
@@ -39,8 +37,6 @@ function LetsTalk() {
         setsupport(false);
         setdir("");
     }
-
-
     const salesbutton =
         <>
             <button className="salesques" >
@@ -49,7 +45,6 @@ function LetsTalk() {
                 </div>
             </button>
         </>;
-
     const supportbutton =
         <>
             <button className="salesques" >
@@ -72,8 +67,6 @@ function LetsTalk() {
                 </div>
             </button>
         </>;
-
-
     const div =
         <div className="letskeep">
             <header className="letskeepheader">
@@ -89,7 +82,7 @@ function LetsTalk() {
             {sales ? salesbutton : null}
             {support ? supportbutton : null}
         </div>;
-
+        
     return (
         <footor>
             {help ? div : null}
