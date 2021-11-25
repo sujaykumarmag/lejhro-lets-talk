@@ -26,11 +26,11 @@ footer {
 .letskeep{
     display: grid;
     width:320px;
-    height:630px;
+    height:700px;
     background-color: #ffffff;
     border-radius: 5px;
     border-style: 1px solid black;
-    grid-template-rows: 150px 240px 240px;
+    grid-template-rows: 150px 275px 275px;
     margin-left: 1030px;
     z-index: 100000;
     position: absolute;
